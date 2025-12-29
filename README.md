@@ -8,11 +8,6 @@ the SLLN is demonstrated using Monte Carlo estimation of the number π.
 
 
 
-## Team Members
-- Fatma Melek Genç – 2311021015
-- Nisanur Turgut– 2213011003
-- Elif Gültekin  – 2211021047
-- Pınar Zehra Bulut – 2311021060
 
 ## Installation
 Install the required Python libraries using the following command:
