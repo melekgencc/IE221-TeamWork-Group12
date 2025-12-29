@@ -21,10 +21,7 @@ python -m pip install numpy matplotlib scipy
 - Elif Gültekin  – 2211021047
 - Pınar Zehra Bulut – 2311021060
 
-#usage
-python src/slln_simulation.py
-python src/clt_simulation.py
-python src/monte_carlo_pi.py
+
 
 #Project Structure
 IE221-TeamWork-Group12/
