@@ -6,6 +6,8 @@ This project experimentally verifies the Strong Law of Large Numbers (SLLN)
 and the Central Limit Theorem (CLT). In addition, a practical application of 
 the SLLN is demonstrated using Monte Carlo estimation of the number π.
 
+
+
 ## Team Members
 - Fatma Melek Genç – 2311021015
 - Nisanur Turgut– 2213011003
