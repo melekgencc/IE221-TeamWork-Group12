@@ -21,7 +21,10 @@ Install the required Python libraries using the following command:
 ```bash
 python -m pip install numpy matplotlib scipy
 
-
+#usage
+python src/slln_simulation.py
+python src/clt_simulation.py
+python src/monte_carlo_pi.py
 
 #Project Structure
 IE221-TeamWork-Group12/
