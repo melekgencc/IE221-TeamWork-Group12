@@ -1,5 +1,5 @@
 
-=======
+
 # IE221 Team Work – Group 12
 
 
@@ -43,5 +43,5 @@ IE221-TeamWork-Group12/
 ├── reports/
 ├── README.md
 └── requirements.txt
->>>>>>> 5344150823d6ac3610c81fa0d9a1b467ec999311
+
 
