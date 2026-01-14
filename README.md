@@ -1,58 +1,47 @@
-\# IE221 Team Work – Group 12
+
+=======
+# IE221 Team Work – Group 12
+
+
+## Project Description
+This project experimentally verifies the Strong Law of Large Numbers (SLLN) 
+and the Central Limit Theorem (CLT). In addition, a practical application of 
+the SLLN is demonstrated using Monte Carlo estimation of the number π.
+
+
+## Team Members
+- Fatma Melek Genç – 2311021015
+- Nisanur Turgut– 2213011003
+- Elif Gültekin  – 2211021047
+- Pınar Zehra Bulut – 2311021060
 
 
 
-This repository contains simulation-based demonstrations of fundamental probability theorems using Python.
-
-
-
-\## Contents
-
-
-
-\### 1. Strong Law of Large Numbers (SLLN)
-
-\- File: `src/slln\_simulation.py`
-
-\- Description: Demonstrates the convergence of sample mean to the expected value using uniform random variables.
-
-\- Output: `results/figures/slln\_convergence.png`
-
-
-
-\### 2. Central Limit Theorem (CLT)
-
-\- File: `src/clt\_simulation.py`
-
-\- Description: Shows that normalized sums of random variables converge to a normal distribution.
-
-\- Outputs:
-
-&nbsp; - `results/figures/clt\_histograms.png`
-
-&nbsp; - `results/figures/clt\_qqplots.png`
-
-
-
-\### 3. Monte Carlo Simulation for π
-
-\- File: `src/monte\_carlo\_pi.py`
-
-\- Description: Estimates the value of π using random sampling.
-
-\- Output: `results/figures/pi\_estimation.png`
-
-
-
-\## How to Run
+## Installation
+Install the required Python libraries using the following command:
 
 ```bash
+python -m pip install numpy matplotlib scipy
 
-python src/slln\_simulation.py
+#usage
+python src/slln_simulation.py
+python src/clt_simulation.py
+python src/monte_carlo_pi.py
 
-python src/clt\_simulation.py
-
-python src/monte\_carlo\_pi.py
-
-
+#Project Structure
+IE221-TeamWork-Group12/
+├── src/
+│   ├── slln_simulation.py
+│   ├── clt_simulation.py
+│   └── monte_carlo_pi.py
+├── results/
+│   └── figures/
+│       ├── slln_convergence.png
+│       ├── clt_histograms.png
+│       ├── clt_qqplots.png
+│       └── pi_estimation.png
+├── reports/
+├── README.md
+└── requirements.txt
+>>>>>>> 5344150823d6ac3610c81fa0d9a1b467ec999311
 
